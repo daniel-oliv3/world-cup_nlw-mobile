@@ -73,7 +73,7 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 - Garantir o carregamento das fontes
 - Criar o componente de Loading
 - Criar a tela de SignIn
-
+- Customizar a StatusBar
 
 **Criação do projeto**
 - Criar o projeto `mobile`
@@ -179,6 +179,8 @@ npx expo install expo-font @expo-google-fonts/roboto
 - Criar o arquivo `Loading.tsx` dentro da pasta `components`
 - Criar a pasta `screens` dentro da pasta `src`
 - Criar o arquivo `SignIn.tsx` dentro da pasta `screens`
+- Customizar a StatusBar
+
 
 
 
