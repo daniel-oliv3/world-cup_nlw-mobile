@@ -1,14 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { NativeBaseProvider } from "native-base";
 
+import { NativeBaseProvider, VStack } from "native-base";
+
+/* ======= APP ======= */
 export default function App() {
   return (
     <NativeBaseProvider>
-      <View style={styles.container}>
+      <VStack flex={1} bgColor="fuchsia.400" alignItems="center" justifyContent="center">
         <Text style={styles.title}>Sapup3!</Text>
         <StatusBar style="auto" />
-      </View>
+      </VStack>
     </NativeBaseProvider>
   );
 }

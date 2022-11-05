@@ -3,6 +3,43 @@
 ### Mobile
 ##
 
+### Pré-Requisitos.
+
+React.js, React Native, Node.js, JavaScript, TypeScript.
+
+**Node.js**
+- Site: https://nodejs.org/en/
+
+**React.js**
+- Site: https://pt-br.reactjs.org/
+
+**Next.js**
+- Site: https://nextjs.org/
+
+**TypeScript**
+- Site: https://www.typescriptlang.org/
+
+**React Native**
+- Site: https://reactnative.dev/
+
+**Expo**
+- Site: https://expo.dev/
+
+**Expo Go**
+- Site: https://expo.dev/client
+
+**Android Studio**
+- Site: https://developer.android.com/studio
+
+### Ferramentas do programador.
+
+**Visual Studio Code**
+- Site: https://code.visualstudio.com/download
+- Extenção
+    - `Prisma`
+
+### React Native
+
 - O que é **React Native**
 - O que é o Expo (Documentação)
 - Expo Go vs Dispositivo Fisico (Documentação)
@@ -78,7 +115,8 @@ expo install react-native-safe-area-context@3.3.2
   },
 ```
 
-
+- Customizar o tema do NativeBase (Tokens)
+- https://docs.nativebase.io/default-theme
 
 
 
