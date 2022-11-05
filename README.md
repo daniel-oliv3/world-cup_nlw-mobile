@@ -165,10 +165,20 @@ export const THEME = extendTheme({
 });
 ```
 
+- Instalar fontes personalizadas
+- Google Fonts
+- Site: https://fonts.google.com/
+- Fonte Rodoto
+- Roboto: https://fonts.google.com/specimen/Roboto
 
-
-
-
+- Expo-font, fonte-roboto
+```
+npx expo install expo-font @expo-google-fonts/roboto
+```
+- Criar a pasta `components` dentro da pasta `src`
+- Criar o arquivo `Loading.tsx` dentro da pasta `components`
+- Criar a pasta `screens` dentro da pasta `src`
+- Criar o arquivo `SignIn.tsx` dentro da pasta `screens`
 
 
 
