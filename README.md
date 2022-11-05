@@ -46,15 +46,37 @@ npx create-expo-app mobile
 - Mudar a extenção do arquivo `app.js` para `app.tsx`
 - Criar o arquivo `tsconfig.json` na raiz do projeto 
 
+**Roda o projeto**
+- Terminal, QRCode, Emulator(Android Studio), Web
 ```
 npx expo start
 ```
 
+**NativeBse**
+- Site: https://nativebase.io/
 
-
-
-
-
+- Instalar o NativeBase
+- Existing Project
+- https://docs.nativebase.io/install-expo
+- NPM
+```
+npm install native-base
+```
+- SVG 
+```
+npx expo install react-native-svg@12.1.1
+```
+- Safe-Area-Context (Iphone X)
+```
+expo install react-native-safe-area-context@3.3.2
+```
+- Configurar o arquivo `package.json` adicionando trecho de codigo
+- Ultima versão do react
+```json
+  "overrides": {
+    "react": "18.0.0"
+  },
+```
 
 
 
