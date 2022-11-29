@@ -1,11 +1,17 @@
-import { Button as ButtonNativeBase, Text } from 'native-base';
+import { Button as ButtonNativeBase, Text, IButtonProps } from 'native-base';
 
-export function Button(){
+interface Props extends IButtonProps {
+    title: string;
+}
+
+/* ======= Component Button ======= */
+export function Button({ title, ...rest }: Props){
     return (
-        <ButtonNativeBase>
+        <ButtonNativeBase {...rest}>
             <Text>
-                ENTRAR COM GOOGLE
+                {title}
             </Text>
         </ButtonNativeBase>
     );
 }
+

@@ -246,13 +246,34 @@ declare module "*.svg" {
 }
 ```
 
-- Criar o componente de `Button.tsx`
+- Criar o componente `Button.tsx`
 
+```tsx
+/*Component Button*/
+import { Button as ButtonNativeBase, Text } from 'native-base';
 
+export function Button(){
+    return (
+        <ButtonNativeBase>
+            <Text>
+                ENTRAR COM GOOGLE
+            </Text>
+        </ButtonNativeBase>
+    );
+}
+```
+- Importação do componente `Button.tsx`
+```jsx
+/* src/screens/SignIn.tsx*/
+import { Button } from "../components/Button";
+```
 
+**Icons**
+- Phosphor Icons
+  - Site: Fora do ar https://phosphoricons.com/
 
-
-
+- Vector icons
+  - Site: https://oblador.github.io/react-native-vector-icons/
 
 
 
