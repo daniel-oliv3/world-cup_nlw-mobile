@@ -22,14 +22,6 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 **React Native**
   - Site: https://reactnative.dev/
 
-**Expo**
-  - Site: https://expo.dev/
-
-**Expo Go**
-  - Site: https://expo.dev/client
-
-**Android Studio**
-  - Site: https://developer.android.com/studio
 
 ### Ferramentas do programador.
 
@@ -38,16 +30,6 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
   - Extensões
     - `Material icon Theme`
 
-### React Native
-
-- O que é **React Native**
-- O que é o Expo (Documentação)
-- Expo Go vs Dispositivo Fisico (Documentação)
-- Criar o projeto
-
-**React Native**
-  - Site: https://reactnative.dev/
-
 **Expo**
   - Site: https://expo.dev/
 
@@ -56,6 +38,14 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 
 **Android Studio**
   - Site: https://developer.android.com/studio
+
+
+### React Native
+
+- O que é **React Native**
+- O que é o Expo (Documentação)
+- Expo Go vs Dispositivo Fisico (Documentação)
+- Criar o projeto
 
 - Instalar o Expo
 - Instalar o Android Studio para fazer a emulação do dispositivo mobile
@@ -274,6 +264,30 @@ import { Button } from "../components/Button";
 
 - Vector icons
   - Site: https://oblador.github.io/react-native-vector-icons/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
