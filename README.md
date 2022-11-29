@@ -181,6 +181,9 @@ npx expo install expo-font @expo-google-fonts/roboto
   - Criando o componente de Button
   - Finalizando a interface SignIn
 - Contexto de Autenticação
+  - Criando o contexto
+  - Criando hook para compartilhar o comtexto
+  - Compartilhando dados atraves do contexto
 - Autenticação com Google
 - Interface para criar e encontrar bolão
 - Interface de bolões
@@ -266,9 +269,10 @@ import { Button } from "../components/Button";
   - Site: https://oblador.github.io/react-native-vector-icons/
 
 
-
-
-
+**Contexto de Autenticação**
+- Criar o contexto
+- Criar uma pasta `contexts` dentro de `src`
+- Criar o arquivo `AuthContext.tsx` dentro da pasta `@contexts`
 
 
 
