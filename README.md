@@ -8,35 +8,35 @@
 React.js, React Native, Node.js, JavaScript, TypeScript.
 
 **Node.js**
-- Site: https://nodejs.org/en/
+  - Site: https://nodejs.org/en/
 
 **React.js**
-- Site: https://pt-br.reactjs.org/
+  - Site: https://pt-br.reactjs.org/
 
 **Next.js**
-- Site: https://nextjs.org/
+  - Site: https://nextjs.org/
 
 **TypeScript**
-- Site: https://www.typescriptlang.org/
+  - Site: https://www.typescriptlang.org/
 
 **React Native**
-- Site: https://reactnative.dev/
+  - Site: https://reactnative.dev/
 
 **Expo**
-- Site: https://expo.dev/
+  - Site: https://expo.dev/
 
 **Expo Go**
-- Site: https://expo.dev/client
+  - Site: https://expo.dev/client
 
 **Android Studio**
-- Site: https://developer.android.com/studio
+  - Site: https://developer.android.com/studio
 
 ### Ferramentas do programador.
 
-**Visual Studio Code**
-- Site: https://code.visualstudio.com/download
-- Extenção
-    - `Prisma`
+**Visual Studio Code**  
+  - Site: https://code.visualstudio.com/download
+  - Extensões
+    - `Material icon Theme`
 
 ### React Native
 
@@ -46,16 +46,16 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 - Criar o projeto
 
 **React Native**
-- Site: https://reactnative.dev/
+  - Site: https://reactnative.dev/
 
 **Expo**
-- Site: https://expo.dev/
+  - Site: https://expo.dev/
 
 **Expo Go**
-- Site: https://expo.dev/client
+  - Site: https://expo.dev/client
 
 **Android Studio**
-- Site: https://developer.android.com/studio
+  - Site: https://developer.android.com/studio
 
 - Instalar o Expo
 - Instalar o Android Studio para fazer a emulação do dispositivo mobile
@@ -90,11 +90,11 @@ npx expo start
 ```
 
 **NativeBse**
-- Site: https://nativebase.io/
+  - Site: https://nativebase.io/
 
 - Instalar o NativeBase
 - Existing Project
-- https://docs.nativebase.io/install-expo
+  - Site: https://docs.nativebase.io/install-expo
 - NPM
 ```
 npm install native-base
@@ -116,7 +116,7 @@ expo install react-native-safe-area-context@3.3.2
 ```
 
 - Customizar o tema do NativeBase (Tokens)
-- https://docs.nativebase.io/default-theme
+  - Site: https://docs.nativebase.io/default-theme
 - Criar a pasta `styles` dentro de `src`
 - Criar o arquivo `themes.ts` dentro de `styles`
 - Colar o trecho de codigo no aquivo `themes.ts`
@@ -167,11 +167,11 @@ export const THEME = extendTheme({
 
 **Fonts**
 
-- Instalar fontes personalizadas
+- Instalar fontes *personalizadas*
 - Google Fonts
-- Site: https://fonts.google.com/
+  - Site: https://fonts.google.com/
 - Fonte Rodoto
-- Roboto: https://fonts.google.com/specimen/Roboto
+  - Roboto: https://fonts.google.com/specimen/Roboto
 
 - Expo-font, fonte-roboto
 ```
@@ -199,7 +199,7 @@ npx expo install expo-font @expo-google-fonts/roboto
 **React Native SVG Transformer**
 - Utilizar SVG como componente
 - SVG Transformer
-- Site: https://github.com/kristerkari/react-native-svg-transformer
+  - Site: https://github.com/kristerkari/react-native-svg-transformer
 
 ```
 npm i react-native-svg-transformer
@@ -246,7 +246,7 @@ declare module "*.svg" {
 }
 ```
 
-
+- Criar o componente de `Button.tsx`
 
 
 
