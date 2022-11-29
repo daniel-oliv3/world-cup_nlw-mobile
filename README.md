@@ -60,7 +60,7 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
 - Instalar o Expo
 - Instalar o Android Studio para fazer a emulação do dispositivo mobile
 - Configurar ...
-- More Action/Virtual device menager/Create virtual device/
+- `More Action/Virtual device menager/Create virtual device/`
 - Criar uma pasta para o projeto `mobile`
 - Criar o projeto
 - As semelhaças com o React para web
@@ -165,6 +165,8 @@ export const THEME = extendTheme({
 });
 ```
 
+**Fonts**
+
 - Instalar fontes personalizadas
 - Google Fonts
 - Site: https://fonts.google.com/
@@ -182,16 +184,51 @@ npx expo install expo-font @expo-google-fonts/roboto
 - Customizar a StatusBar
 
 
+**Continuação do projeto mobile**
+- Interface de Autenticação
+  - Utilizando SVG como componente no React Native para exibir o logo (svg-transformer)
+  - Tipando SGV
+  - Criando o componente de Button
+  - Finalizando a interface SignIn
+- Contexto de Autenticação
+- Autenticação com Google
+- Interface para criar e encontrar bolão
+- Interface de bolões
 
 
+**React Native SVG Transformer**
+- Utilizar SVG como componente
+- SVG Transformer
+- Site: https://github.com/kristerkari/react-native-svg-transformer
 
+```
+npm i react-native-svg-transformer
+```
+- Criar o arquivo `metro.config.js` na raiz do projeto
+- Colar trecho de código no arquivo `metro.config.js`
 
+```js
+//metro.config.js
+const { getDefaultConfig } = require("expo/metro-config");
 
+module.exports = (() => {
+  const config = getDefaultConfig(__dirname);
 
+  const { transformer, resolver } = config;
 
+  config.transformer = {
+    ...transformer,
+    babelTransformerPath: require.resolve("react-native-svg-transformer"),
+  };
+  config.resolver = {
+    ...resolver,
+    assetExts: resolver.assetExts.filter((ext) => ext !== "svg"),
+    sourceExts: [...resolver.sourceExts, "svg"],
+  };
 
-
-
+  return config;
+})();
+```
 
 
 
