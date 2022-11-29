@@ -182,7 +182,7 @@ npx expo install expo-font @expo-google-fonts/roboto
   - Finalizando a interface SignIn
 - Contexto de Autenticação
   - Criando o contexto
-  - Criando hook para compartilhar o comtexto
+  - Criando hook para compartilhar o contexto
   - Compartilhando dados atraves do contexto
 - Autenticação com Google
 - Interface para criar e encontrar bolão
@@ -274,7 +274,9 @@ import { Button } from "../components/Button";
 - Criar uma pasta `contexts` dentro de `src`
 - Criar o arquivo `AuthContext.tsx` dentro da pasta `@contexts`
 
-
+**Hooks**
+- Criar uma pasta `hooks` dentro de `src`
+- Criar o arquivo `useAuth.tsx` dentro da pasta `hooks`
 
 
 
