@@ -185,6 +185,11 @@ npx expo install expo-font @expo-google-fonts/roboto
   - Criando hook para compartilhar o contexto
   - Compartilhando dados atraves do contexto
 - Autenticação com Google
+  - Conceito de OAuth (ilustração)
+  - Instalando o expo-auth-session (docs)
+  - Instalando o expo-web-browser (docs)
+  - Configurar OAuth com Google (http://console.cloud.google.com)
+  - Implementando autenticação Google
 - Interface para criar e encontrar bolão
 - Interface de bolões
 
@@ -279,14 +284,25 @@ import { Button } from "../components/Button";
 - Criar o arquivo `useAuth.tsx` dentro da pasta `hooks`
 
 
+**Autenticação com Google**
+- Conceito de OAuth (ilustração)
+<p align="center">
+  <img alt="...." src="./assets/OAuth.jpg" width="100%">
+</p>
 
+- Instalando o expo-auth-session (docs)
+  - Site: https://docs.expo.dev/versions/latest/sdk/auth-session/
 
+```
+npx expo install expo-auth-session expo-random
+```
 
+- Instalando o expo-web-browser (docs)
+  - Site: https://docs.expo.dev/versions/latest/sdk/webbrowser/
 
-
-
-
-
+```
+npx expo install expo-web-browser
+```
 
 
 
