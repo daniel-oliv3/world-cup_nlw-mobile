@@ -1,7 +1,7 @@
+##
+### World Cup
+##
 
-##
-### Mobile
-##
 
 ### Pré-Requisitos.
 
@@ -40,7 +40,11 @@ React.js, React Native, Node.js, JavaScript, TypeScript.
   - Site: https://developer.android.com/studio
 
 
-### React Native
+##
+### Mobile
+##
+
+**React Native**
 
 - O que é **React Native**
 - O que é o Expo (Documentação)
@@ -297,14 +301,38 @@ import { Button } from "../components/Button";
 npx expo install expo-auth-session expo-random
 ```
 
+- Alterar trecho de código no arquivo `app.json`
+```json
+/*app.json*/
+"schema": "mobile",
+```
+
 - Instalando o expo-web-browser (docs)
   - Site: https://docs.expo.dev/versions/latest/sdk/webbrowser/
 
 ```
 npx expo install expo-web-browser
 ```
+- Configurar OAuth com Google 
+  - Site: http://console.cloud.google.com
 
-
+- Criar novo projeto `world-cup-nlw-mobile`
+- Configuração ... `menu de navegação/APIs e serviços ativos/Credenciais`
+- Credenciais `+ Criar Credenciais/ID do cliente OAuth`
+- Tela de permissão OAuth `External` ... Criar
+  - Name app: `world-cup-nlw-mobile`
+  - Email para suporte de usuário `danielsapup3@gmail.com`
+  - Dados de contato do desenvolvedor `danielsapup3@gmail.com`
+- Escopos não confidenciais 
+  - `../auth/userinfo.email`
+  - `../auth/userinfo.profile`
+  - Publicar Aplicativo
+- Credenciais `+ Criar Credenciais/ID do cliente OAuth`
+  - Tipo de aplicativo `Aplicativo da Web`
+  - Nome `world-cup-nlw-mobile`
+- Origens JavaScript autorizadas `+ Adicionar Url`
+  - URLs 1* `https://auth.expo.io`
+- URIs de redirecionamento autorizado
 
 
 
