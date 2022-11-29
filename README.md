@@ -230,6 +230,30 @@ module.exports = (() => {
 })();
 ```
 
+**@Types**
+- Tipando SGV
+- Criar uma pasta `@types` dentro de `src`
+- Criar o arquivo `svg.d.ts` dentro da pasta `@types`
+- Colar trecho de código no arquivo `svg.d.ts`
+
+```ts
+/* svg.d.ts */
+declare module "*.svg" {
+  import React from 'react';
+  import { SvgProps } from "react-native-svg";
+  const content: React.FC<SvgProps>;
+  export default content;
+}
+```
+
+
+
+
+
+
+
+
+
 
 
 
