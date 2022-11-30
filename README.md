@@ -195,6 +195,9 @@ npx expo install expo-font @expo-google-fonts/roboto
   - Configurar OAuth com Google (http://console.cloud.google.com)
   - Implementando autenticação Google
 - Interface para criar e encontrar bolão
+  - Compartilhando os demais componentes da aplicação (componentes)
+  - Finalizando a interface New
+  - Reaproveitar a estrutura da New para criar a interface Find 
 - Interface de bolões
 
 
@@ -353,8 +356,9 @@ npx expo whoami
  >sapup3
 
 
-**Implementando autenticação Google**
-
+**Interface para criar e encontrar bolão**
+- Compartilhando os demais componentes da aplicação (componentes)
+- Criar o arquivo `New.tsx` dentra da pasta `screens`
 
 
 
