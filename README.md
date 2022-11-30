@@ -304,7 +304,7 @@ npx expo install expo-auth-session expo-random
 - Alterar trecho de código no arquivo `app.json`
 ```json
 /*app.json*/
-"schema": "mobile",
+"scheme": "mobile",
 ```
 
 - Instalando o expo-web-browser (docs)
@@ -320,7 +320,7 @@ npx expo install expo-web-browser
 - Configuração ... `menu de navegação/APIs e serviços ativos/Credenciais`
 - Credenciais `+ Criar Credenciais/ID do cliente OAuth`
 - Tela de permissão OAuth `External` ... Criar
-  - Name app: `world-cup-nlw-mobile`
+  - Name app: `mobile`
   - Email para suporte de usuário `danielsapup3@gmail.com`
   - Dados de contato do desenvolvedor `danielsapup3@gmail.com`
 - Escopos não confidenciais 
@@ -334,8 +334,26 @@ npx expo install expo-web-browser
   - URLs 1* `https://auth.expo.io`
 - URIs de redirecionamento autorizado
 
+**Expo Login**
+
+- Criar uma conta no Expo.dev
+  - Site: https://expo.dev/
+
+```
+npx expo login
+```
+- Email or Username: sapup3
+- Password: ****************
+
+- Logado: https://expo.dev/@sapup3
+- Saber se ta logado ou não
+```
+npx expo whoami
+```
+ >sapup3
 
 
+**Implementando autenticação Google**
 
 
 

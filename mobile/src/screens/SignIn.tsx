@@ -9,7 +9,7 @@ import { Fontisto } from '@expo/vector-icons';
 export function SignIn() {
   const { signIn, user } = useAuth();
 
-  /*console.log('Dados fo úsuario => ', user);*/
+  /*console.log('Dados do úsuario => ', user);*/
 
   return (
       <Center flex={1} bgColor="gray.900" p={7}>
