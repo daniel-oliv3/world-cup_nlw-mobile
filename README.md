@@ -291,7 +291,7 @@ import { Button } from "../components/Button";
 **Autenticação com Google**
 - Conceito de OAuth (ilustração)
 <p align="center">
-  <img alt="...." src="./assets/OAuth.jpg" width="100%">
+  <img alt="...." src="./mobile/assets/OAuth.jpg" width="100%">
 </p>
 
 - Instalando o expo-auth-session (docs)
