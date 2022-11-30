@@ -233,7 +233,7 @@ module.exports = (() => {
 ```
 
 **@Types**
-- Tipando SGV
+- Tipando SVG
 - Criar uma pasta `@types` dentro de `src`
 - Criar o arquivo `svg.d.ts` dentro da pasta `@types`
 - Colar trecho de código no arquivo `svg.d.ts`

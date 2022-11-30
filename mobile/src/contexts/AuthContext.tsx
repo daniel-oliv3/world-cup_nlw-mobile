@@ -1,7 +1,8 @@
-import { createContext, ReactNode, useState } from "react";
+import { createContext, ReactNode, useState, useEffect } from "react";
 import * as Google from 'expo-auth-session/providers/google';
 import * as AuthSession from 'expo-auth-session';
 import * as WebBrowser from 'expo-web-browser';
+import { getColorScheme } from "native-base/lib/typescript/theme/v33x-theme/tools";
 
 WebBrowser.maybeCompleteAuthSession();
 
@@ -25,6 +26,7 @@ export const AuthContext = createContext({} as AuthContextDataProps);
 
 
 export function AuthContextProvider({ children }: AuthProviderProps){
+    const [user, setUser] = useState<UserProps>({} as UserProps);
     const [isUserLoading, setIsUserLoading] = useState(false);
 
     const [request, response, promptAsync] = Google.useAuthRequest({
@@ -38,6 +40,7 @@ export function AuthContextProvider({ children }: AuthProviderProps){
         try{
             setIsUserLoading(true);
             await promptAsync();
+
         }catch (error){
             console.log(error);
             throw error;
@@ -46,14 +49,21 @@ export function AuthContextProvider({ children }: AuthProviderProps){
         }
     }
 
+    async function signInWithGoogle(access_token: string){
+        console.log("TOKEN DE AUTENTICAÇÃO ===> ", access_token);
+    }
+
+    useEffect(() => {
+        if(response?.type === 'success' && response.authentication?.accessToken){
+            signInWithGoogle(response.authentication.accessToken);
+        }
+    },[response]);
+
     return (
         <AuthContext.Provider value={{
             signIn,
             isUserLoading,
-            user: {
-                name: 'Daniel Oliveira',
-                avatarUrl: 'https://github.com/daniel-oliv3.png'
-            }
+            user,
         }}>
             {children}
         </AuthContext.Provider>
