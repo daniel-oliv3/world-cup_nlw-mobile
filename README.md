@@ -275,7 +275,8 @@ import { Button } from "../components/Button";
 
 **Icons**
 - Phosphor Icons
-  - Site: Fora do ar https://phosphoricons.com/
+  - Site: https://phosphoricons.com/
+  - React-Native: https://github.com/duongdev/phosphor-react-native
 
 - Vector icons
   - Site: https://oblador.github.io/react-native-vector-icons/
@@ -360,6 +361,53 @@ npx expo whoami
 **Interface para criar e encontrar bolão**
 - Compartilhando os demais componentes da aplicação (componentes)
 - Criar o arquivo `New.tsx` dentra da pasta `screens`
+
+
+- Phosphor Icons React Native
+  - Site: https://github.com/duongdev/phosphor-react-native
+
+```
+npm install --save phosphor-react-native
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
