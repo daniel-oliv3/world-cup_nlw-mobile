@@ -336,6 +336,7 @@ npx expo install expo-web-browser
 - Origens JavaScript autorizadas `+ Adicionar Url`
   - URLs 1* `https://auth.expo.io`
 - URIs de redirecionamento autorizado
+  - URLs 1* `https://auth.expo.io/@sapup3/mobile`
 
 **Expo Login**
 
