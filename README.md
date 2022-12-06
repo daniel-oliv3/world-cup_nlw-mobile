@@ -417,6 +417,8 @@ export function New(){
 - Criar a interface de Bolões
   - Criar o arquivo `Pools.tsx` dentro da pasta `screens`
 
+- 
+
 
 
 
