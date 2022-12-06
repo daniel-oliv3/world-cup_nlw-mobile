@@ -414,6 +414,8 @@ export function New(){
 ```
 - Reaproveitar a estrutura da New para criar a interface Find
 - Criar arquivo `Find.tsx` na pasta `screens`
+- Criar a interface de Bolões
+  - Criar o arquivo `Pools.tsx` dentro da pasta `screens`
 
 
 
